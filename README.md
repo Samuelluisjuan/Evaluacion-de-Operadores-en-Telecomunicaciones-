@@ -1,20 +1,40 @@
-# Sprint-14
-## Proyecto Final Sprint 14
+# Análisis de Telecomunicaciones: Identificar Operadores Ineficaces
 
-Este proyecto analiza la eficiencia de los operadores de una empresa de telecomunicaciones mediante el desarrollo de KPI's. Su objetivo es identificar áreas de mejora y proponer estrategias para optimizar el rendimiento operativo.
+## Tecnologías Utilizadas
 
-Se utilizan herramientas como Python, Pandas y Power BI para procesar datos y crear tableros dinámicos que faciliten el seguimiento de los indicadores.
+- **Python**: Lenguaje principal para el análisis de datos.
+- **Jupyter Notebook**: Entorno interactivo para desarrollar y documentar el análisis.
+- **Librerías de Python**:
+  - `pandas`: Para manipulación y análisis de datos.
+  - `numpy`: Para operaciones numéricas.
+  - `matplotlib` y `seaborn`: Para visualización de datos.
+  - `scikit-learn`: Para técnicas de aprendizaje automático.
 
-El repositorio incluye:
+## Resumen del Análisis
 
-Datos anonimizados (/data).
+El objetivo principal de este análisis fue identificar operadores de telecomunicaciones ineficaces. Se llevaron a cabo las siguientes etapas:
 
-Notebooks del análisis (/notebooks).
+1. **Carga y Exploración de Datos**: Se importaron los datos relevantes y se realizó una exploración inicial para comprender su estructura y contenido.
+2. **Limpieza de Datos**: Se manejaron valores nulos, duplicados y se corrigieron inconsistencias en los datos.
+3. **Análisis Exploratorio de Datos (EDA)**: Se generaron estadísticas descriptivas y visualizaciones para identificar patrones y anomalías.
+4. **Modelado**: Se aplicaron técnicas de aprendizaje automático para clasificar y detectar operadores con bajo rendimiento.
+5. **Conclusiones**: Se identificaron operadores con desempeño inferior al promedio, proporcionando recomendaciones para mejorar su eficiencia.
 
-Scripts para cálculos de KPI's (/scripts).
+## Conclusiones del Análisis
 
-Visualizaciones y tableros (/visualizations).
+Tras el análisis, se concluyó que ciertos operadores presentan indicadores de rendimiento por debajo del estándar de la industria. Se recomienda implementar estrategias específicas para mejorar su eficiencia operativa y la calidad del servicio ofrecido a los clientes.
 
+## Contenido del Directorio `Análisis de Telecomunicaciones`
 
-Autor: Samuel Luis Juan, estudiante de Negocios Internacionales, UDG CUSUR.
+- **`Analisis de Telecomunicaciones: identificar operadores ineficaces/`**: Contiene el notebook de Jupyter con el análisis detallado.
+  - `Analisis_de_Telecomunicasiones (1).ipynb`: Notebook principal con el proceso completo de análisis.
+- **`Datos/`**: Directorio que almacena los conjuntos de datos utilizados para el análisis.
+  - `datos_operadores.csv`: Datos de rendimiento de los operadores.
+- **`Visualizaciones/`**: Incluye gráficos y visualizaciones generadas durante el análisis.
+  - `grafico_rendimiento.png`: Gráfico comparativo del rendimiento de los operadores.
+- **`Modelos/`**: Almacena los modelos de aprendizaje automático entrenados.
+  - `modelo_clasificacion.pkl`: Modelo utilizado para la clasificación de operadores.
+
+Este README proporciona una visión general del análisis realizado y detalla el contenido del directorio `Análisis de Telecomunicaciones`. Para más información, se recomienda revisar el notebook principal y los archivos asociados.
+
 
